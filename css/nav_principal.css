@@ -1,0 +1,44 @@
+/*!
+ INICIO NAV DEL HEADER
+ */
+
+  body {
+    margin: 0;
+  }
+  
+  nav {
+    height: 44px;
+    background: black;
+  }
+  
+  nav ul {
+    display: flex;
+    height: 44px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+  }
+  
+  nav li {}
+  
+  nav a {
+    display: block;
+    color: white;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #B8B8B8;
+  }
+  
+  .appleNav {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  
